@@ -1,11 +1,11 @@
 # 1132程式語言
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
-### HW2-病患資料視覺化
+## HW2-病患資料視覺化
 此專案視覺化了包含 150 筆病患紀錄的資料集。專案目標是探索各種健康因素（例如年齡、BMI、疾病、用藥與追蹤等）之間的關聯。
-#### 程式碼
+### 程式碼
 [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW2.ipynb)
-#### 數據
+### 數據
 [導入的數據](https://github.com/PhoebeLu1011/1132code/blob/main/%E4%BD%9C%E6%A5%AD%E4%BA%8C%20-%20%E5%B7%A5%E4%BD%9C%E8%A1%A81.csv)\
 數據包含以下欄位：
 - **PatientID**：病患的代碼。
