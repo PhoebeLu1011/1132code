@@ -1,0 +1,151 @@
+PatientID,Age,BMI,Disease,Medication,Rehabilitation,FollowUp
+P0001,55,23.3,Arthritis,1,0,1
+P0002,43,27,Chronic Back Pain,0,1,1
+P0003,83,18.7,No Specific Condition,0,0,0
+P0004,45,28.1,Hypertension,1,0,1
+P0005,40,29.9,Diabetes,0,0,1
+P0006,43,28.1,Chronic Back Pain,1,1,1
+P0007,48,20.5,Hypertension,1,0,1
+P0008,23,24.7,No Specific Condition,0,0,0
+P0009,34,18.9,Hypertension,1,0,1
+P0010,41,27.3,Hypertension,1,0,1
+P0011,44,19.8,No Specific Condition,0,0,0
+P0012,71,28.2,Chronic Back Pain,0,1,1
+P0013,29,20.8,Chronic Back Pain,0,0,0
+P0014,79,24.4,Chronic Back Pain,0,0,1
+P0015,53,25.3,Chronic Back Pain,1,1,1
+P0016,51,27.6,No Specific Condition,0,0,0
+P0017,61,26.6,Arthritis,1,0,1
+P0018,44,25.3,Diabetes,0,0,1
+P0019,46,19,No Specific Condition,0,0,1
+P0020,37,29.2,Arthritis,1,1,1
+P0021,70,21.5,Diabetes,0,0,0
+P0022,59,22,No Specific Condition,0,0,0
+P0023,82,22,Diabetes,0,0,0
+P0024,23,27,Chronic Back Pain,1,1,1
+P0025,49,23.7,Diabetes,1,0,1
+P0026,47,28.7,Diabetes,1,0,1
+P0027,63,28.5,Arthritis,1,1,1
+P0028,70,18.7,Diabetes,1,0,1
+P0029,77,29.7,Hypertension,1,0,1
+P0030,36,27.4,Arthritis,0,1,1
+P0031,76,29.5,No Specific Condition,0,0,0
+P0032,27,22.3,No Specific Condition,0,0,0
+P0033,45,26.8,Arthritis,0,1,1
+P0034,33,25.8,Hypertension,1,0,1
+P0035,76,23.1,Chronic Back Pain,1,0,1
+P0036,67,20.7,Arthritis,1,1,1
+P0037,47,28.9,Hypertension,1,0,1
+P0038,82,23.7,Hypertension,0,0,0
+P0039,71,26.5,No Specific Condition,0,0,0
+P0040,42,29.9,No Specific Condition,0,0,1
+P0041,73,29.7,No Specific Condition,0,0,1
+P0042,57,25.6,Diabetes,1,0,1
+P0043,31,19.3,No Specific Condition,0,0,1
+P0044,75,20.4,Arthritis,1,0,1
+P0045,76,24,No Specific Condition,0,0,1
+P0046,49,27.9,Chronic Back Pain,0,1,1
+P0047,32,21.1,No Specific Condition,0,0,1
+P0048,21,18.6,Arthritis,1,1,1
+P0049,59,22.5,Arthritis,0,0,1
+P0050,83,21.3,Diabetes,1,0,1
+P0051,35,21.1,Chronic Back Pain,1,0,1
+P0052,29,28.3,No Specific Condition,0,0,0
+P0053,23,19.9,No Specific Condition,0,0,0
+P0054,39,24.4,Hypertension,0,0,0
+P0055,33,28.6,Chronic Back Pain,1,0,1
+P0056,48,20.3,Diabetes,0,0,0
+P0057,47,25.9,Diabetes,1,0,1
+P0058,45,22.6,No Specific Condition,0,0,0
+P0059,25,26.9,Arthritis,1,0,1
+P0060,47,25.8,Diabetes,1,0,1
+P0061,81,20.6,Arthritis,1,1,1
+P0062,50,23.5,Diabetes,0,0,1
+P0063,41,25.6,Hypertension,0,0,0
+P0064,71,24.1,Arthritis,1,0,1
+P0065,66,19.3,No Specific Condition,0,0,0
+P0066,27,26.6,Hypertension,1,0,1
+P0067,42,28,Diabetes,1,0,1
+P0068,37,26,Hypertension,1,0,1
+P0069,54,23.4,Hypertension,0,0,0
+P0070,79,20.9,Arthritis,0,0,1
+P0071,54,28.8,Diabetes,0,0,0
+P0072,29,30,Hypertension,1,0,1
+P0073,32,25.5,No Specific Condition,0,0,0
+P0074,44,19,No Specific Condition,0,0,0
+P0075,50,20.8,Arthritis,0,1,1
+P0076,22,27.8,Hypertension,1,0,1
+P0077,47,23.8,Diabetes,1,0,1
+P0078,73,18.8,Chronic Back Pain,0,1,1
+P0079,83,20.1,Arthritis,1,1,1
+P0080,84,26.8,Hypertension,1,0,1
+P0081,33,19.4,Hypertension,1,0,1
+P0082,27,28.4,Hypertension,1,0,1
+P0083,21,20.7,Arthritis,1,0,1
+P0084,36,25.2,Arthritis,1,1,1
+P0085,69,20.5,Arthritis,1,0,1
+P0086,56,21.5,Diabetes,1,0,1
+P0087,28,23.9,Diabetes,1,0,1
+P0088,50,25.5,Diabetes,0,0,0
+P0089,21,28.5,Arthritis,0,0,1
+P0090,60,19.5,Hypertension,1,0,1
+P0091,73,24.1,Hypertension,1,0,1
+P0092,64,25.6,Chronic Back Pain,0,1,1
+P0093,28,26.8,Diabetes,1,0,1
+P0094,38,27.8,Hypertension,1,0,1
+P0095,57,26.7,Hypertension,1,0,1
+P0096,64,22.4,Hypertension,0,0,0
+P0097,79,27.6,Diabetes,1,0,1
+P0098,52,28.1,Arthritis,1,0,1
+P0099,32,18.6,Hypertension,1,0,1
+P0100,82,26.4,Diabetes,0,0,0
+P0101,36,18.8,Hypertension,1,0,1
+P0102,82,28.3,Diabetes,0,0,1
+P0103,68,21.3,No Specific Condition,0,0,1
+P0104,66,24.2,Diabetes,1,0,1
+P0105,22,22.9,Diabetes,1,0,1
+P0106,60,29.3,Arthritis,1,1,1
+P0107,71,28.8,Diabetes,0,0,0
+P0108,37,22.1,Arthritis,1,0,1
+P0109,77,23.2,Diabetes,1,0,1
+P0110,22,27.5,Arthritis,1,1,1
+P0111,58,23.9,Chronic Back Pain,1,1,1
+P0112,46,21.5,Hypertension,1,0,1
+P0113,39,21.9,No Specific Condition,0,0,0
+P0114,55,21,Diabetes,0,0,0
+P0115,40,22.6,Chronic Back Pain,1,0,1
+P0116,69,29.1,Chronic Back Pain,0,0,1
+P0117,82,21.8,Hypertension,1,0,1
+P0118,77,18.9,No Specific Condition,0,0,1
+P0119,80,19.3,Diabetes,1,0,1
+P0120,57,28.8,Arthritis,1,1,1
+P0121,28,19.4,Arthritis,0,1,1
+P0122,84,22.9,Chronic Back Pain,0,1,1
+P0123,69,28.3,Arthritis,1,1,1
+P0124,71,23.6,Chronic Back Pain,1,1,1
+P0125,69,23.9,Diabetes,0,0,0
+P0126,60,23.1,Diabetes,1,0,1
+P0127,57,28.9,Arthritis,0,1,1
+P0128,36,20.6,Chronic Back Pain,0,1,1
+P0129,41,21.6,No Specific Condition,0,0,0
+P0130,21,25.9,Diabetes,0,0,0
+P0131,60,19.4,No Specific Condition,0,0,0
+P0132,26,29.7,Arthritis,1,1,1
+P0133,62,19.7,Hypertension,0,0,0
+P0134,72,23.5,Chronic Back Pain,0,0,0
+P0135,32,26.7,Diabetes,1,0,1
+P0136,53,27,Arthritis,0,0,0
+P0137,82,23.8,Arthritis,1,1,1
+P0138,63,29.9,Hypertension,1,0,1
+P0139,21,20.3,Diabetes,1,0,1
+P0140,64,28.9,No Specific Condition,0,0,0
+P0141,81,21.6,Chronic Back Pain,0,0,0
+P0142,85,26.1,No Specific Condition,0,0,0
+P0143,60,24.4,Diabetes,0,0,0
+P0144,60,28.3,Chronic Back Pain,1,0,1
+P0145,70,24.9,No Specific Condition,0,0,1
+P0146,37,21.8,Diabetes,1,0,1
+P0147,78,24.3,No Specific Condition,0,0,1
+P0148,64,27.9,Arthritis,1,1,1
+P0149,42,24,Diabetes,1,0,1
+P0150,81,23.7,Diabetes,1,0,1
