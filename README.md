@@ -77,7 +77,7 @@ dicts = pd.DataFrame(dicts)
 rows = gsheets.get_all_records()
 df = pd.DataFrame(rows)
 ```
-3.資料處理
+3.資料處理\
 (1) 欄位重新命名
 ```python
 df = df.rename(columns={
