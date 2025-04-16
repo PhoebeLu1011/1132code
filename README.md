@@ -85,10 +85,10 @@ clusters = kmeans.fit_predict(X_scaled)
 df['Cluster'] = clusters
 ```
 5. 長條圖-顯示每群的平均特徵
-```
+```python
 group_means = df.groupby('Cluster')[features].mean()
 group_means.plot(kind='bar', figsize=(10,6))
-plt.title('Average Features by Cluster')
+plt.title('Average Lifestyle and Academic Features Across Student Clusters')
 plt.ylabel('Average Value')
 plt.xlabel('Cluster')
 plt.xticks(rotation=0)
@@ -100,12 +100,12 @@ group_means = df.groupby('Cluster')[features].mean()
 print(group_means)
 ```
 6. PCA 降維-將資料轉成2維，以散狀圖顯示學生分佈情形
-```
+```python
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X_scaled)
 plt.figure(figsize=(8,6))
 sns.scatterplot(x=X_pca[:,0], y=X_pca[:,1], hue=df['Cluster'], palette='viridis', s=80)
-plt.title('PCA 2D Cluster Visualization')
+plt.title('PCA 2D Visualization of Student Clusters by Lifestyle and Grades')
 plt.xlabel('Principal Component 1')
 plt.ylabel('Principal Component 2')
 plt.grid(True)
