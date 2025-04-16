@@ -1,4 +1,6 @@
 # 1132程式語言
+* 授課教師：蔡芸琤老師
+* 姓名：盧姵帆
 # 目錄
 ### HW1
 * [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
