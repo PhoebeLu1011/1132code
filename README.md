@@ -56,8 +56,8 @@ dicts = pd.DataFrame(dicts)
 rows = gsheets.get_all_records()
 df = pd.DataFrame(rows)
 ```
-
-```
+3. 欄位重新命名
+```python
 df = df.rename(columns={
     '學生編號': 'Student_ID',
     '睡眠時間_每日(小時)': 'Sleep_Hours',
@@ -66,18 +66,21 @@ df = df.rename(columns={
     '讀書時間_每日(小時)': 'Study_Hours',
     '平均成績': 'Average_Grade'
 ```
-```
+4. 資料標準化—把每個項目轉為平均值為 0、標準差為 1，讓不同尺度的資料可以以相同單位進行分析。
+```python
 eatures = ['Sleep_Hours', 'Social_Media_Hours', 'Exercise_per_Week', 'Study_Hours', 'Average_Grade']
 X = df[features]
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
-#KMeans Clustering
+```
+5. KMeans 分群分析-根據學生的行為與表現將其分為3群
+```
 kmeans = KMeans(n_clusters=3, random_state=42)
 clusters = kmeans.fit_predict(X_scaled)
 df['Cluster'] = clusters
 ```
+6. 長條圖-顯示每群的平均特徵
 ```
-#Bar chart of group feature means
 group_means = df.groupby('Cluster')[features].mean()
 group_means.plot(kind='bar', figsize=(10,6))
 plt.title('Average Features by Cluster')
@@ -91,11 +94,10 @@ plt.show()
 group_means = df.groupby('Cluster')[features].mean()
 print(group_means)
 ```
+7. PCA 降維-將資料轉成2維，以散狀圖顯示學生分佈情形
 ```
-#PCA for 2D visualization
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X_scaled)
-
 plt.figure(figsize=(8,6))
 sns.scatterplot(x=X_pca[:,0], y=X_pca[:,1], hue=df['Cluster'], palette='viridis', s=80)
 plt.title('PCA 2D Cluster Visualization')
@@ -104,11 +106,6 @@ plt.ylabel('Principal Component 2')
 plt.grid(True)
 plt.legend(title='Cluster')
 plt.show()
-```
-```
-#PCA 組成
-pca_components = pd.DataFrame(pca.components_, columns=features, index=['PCA1', 'PCA2'])
-print(pca_components)
 ```
 ### 圖表解釋與分析
 ![圖片描述](HW3IMAGE/IMAGE1.png)
