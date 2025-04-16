@@ -37,6 +37,9 @@ HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_h
 ## HW3-學生生活習慣與成績分群分析
 本作業使用 Python 分析學生的生活習慣，包括睡眠、社群媒體使用、運動頻率、讀書時數與成績等統計指標，利用 KMeans 聚類與 PCA 降維分析分群成三種類型的學生，並使用視覺化工具展示結果。
 
+### 程式碼
+### 導入的數據
+
 ### 程式碼解釋
 1. 串接Colab與google帳號，以`gspread` 函式庫操作Google Sheets
 ```python
@@ -56,7 +59,8 @@ dicts = pd.DataFrame(dicts)
 rows = gsheets.get_all_records()
 df = pd.DataFrame(rows)
 ```
-3. 欄位重新命名
+3.資料處理
+(1) 欄位重新命名
 ```python
 df = df.rename(columns={
     '學生編號': 'Student_ID',
@@ -66,20 +70,20 @@ df = df.rename(columns={
     '讀書時間_每日(小時)': 'Study_Hours',
     '平均成績': 'Average_Grade'
 ```
-4. 資料標準化—把每個項目轉為平均值為 0、標準差為 1，讓不同尺度的資料可以以相同單位進行分析。
+(2) 資料標準化—把每個項目轉為平均值為 0、標準差為 1，讓不同尺度的資料可以以相同單位進行分析。
 ```python
 eatures = ['Sleep_Hours', 'Social_Media_Hours', 'Exercise_per_Week', 'Study_Hours', 'Average_Grade']
 X = df[features]
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 ```
-5. KMeans 分群分析-根據學生的行為與表現將其分為3群
+4. KMeans 分群分析-根據學生的行為與表現將其分為3群
 ```
 kmeans = KMeans(n_clusters=3, random_state=42)
 clusters = kmeans.fit_predict(X_scaled)
 df['Cluster'] = clusters
 ```
-6. 長條圖-顯示每群的平均特徵
+5. 長條圖-顯示每群的平均特徵
 ```
 group_means = df.groupby('Cluster')[features].mean()
 group_means.plot(kind='bar', figsize=(10,6))
@@ -94,7 +98,7 @@ plt.show()
 group_means = df.groupby('Cluster')[features].mean()
 print(group_means)
 ```
-7. PCA 降維-將資料轉成2維，以散狀圖顯示學生分佈情形
+6. PCA 降維-將資料轉成2維，以散狀圖顯示學生分佈情形
 ```
 pca = PCA(n_components=2)
 X_pca = pca.fit_transform(X_scaled)
