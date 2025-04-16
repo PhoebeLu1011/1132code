@@ -18,7 +18,8 @@
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
 ## HW2-病患資料視覺化
-此作業視覺化了包含 150 筆病患紀錄的資料集。專案目標是探索各種健康因素（例如年齡、BMI、疾病、用藥與追蹤等）之間的關聯。
+此作業視覺化了包含 150 筆病患紀錄的資料集
+目標: 了解各種健康因素（年齡、BMI、疾病、用藥與追蹤等）之間的關聯性。
 ### 程式碼
 [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW2.ipynb)
 ### 數據
