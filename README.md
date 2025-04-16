@@ -1,4 +1,18 @@
 # 1132程式語言
+# 目錄
+### HW1
+* [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
+### HW2-病患資料視覺化
+* [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW2.ipynb)
+* [數據](#數據)
+* [圖表與說明](#圖表與說明)
+
+### HW3-學生生活習慣與成績分群分析
+* [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW3.ipynb)
+* [數據](#導入的數據:)
+* [程式碼解釋](#程式碼解釋)
+* [圖表解釋與分析](#圖表解釋與分析)
+
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
 ## HW2-病患資料視覺化
