@@ -36,9 +36,80 @@ HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_h
 
 ## HW3-學生生活習慣與成績分群分析
 本作業使用 Python 分析學生的生活習慣，包括睡眠、社群媒體使用、運動頻率、讀書時數與成績等統計指標，利用 KMeans 聚類與 PCA 降維分析分群成三種類型的學生，並使用視覺化工具展示結果。
+
 ### 程式碼解釋
+1. 串接Colab與google帳號，以`gspread` 函式庫操作Google Sheets
+```python
+from google.colab import auth
+auth.authenticate_user()
+import gspread
+from google.auth import default
+creds, _ = default()
+gc = gspread.authorize(creds)
+```
+2. 讀取Google sheets 中的資料並轉成pandas 的 DataFrame
+```python
+gsheets = gc.open_by_url('https://docs.google.com/spreadsheets/d/1W8M_DmUTvav6yeYFs_1e7gdO5DX-d55vePejUNkAEJw/edit?usp=sharing').sheet1
+dicts = gc.open_by_url('https://docs.google.com/spreadsheets/d/1W8M_DmUTvav6yeYFs_1e7gdO5DX-d55vePejUNkAEJw/edit?usp=sharing').get_worksheet(0)
+dicts = dicts.get_all_records()
+dicts = pd.DataFrame(dicts)
+rows = gsheets.get_all_records()
+df = pd.DataFrame(rows)
+```
 
+```
+df = df.rename(columns={
+    '學生編號': 'Student_ID',
+    '睡眠時間_每日(小時)': 'Sleep_Hours',
+    '社群媒體使用_每日(小時)': 'Social_Media_Hours',
+    '運動頻率_每週(次)': 'Exercise_per_Week',
+    '讀書時間_每日(小時)': 'Study_Hours',
+    '平均成績': 'Average_Grade'
+```
+```
+eatures = ['Sleep_Hours', 'Social_Media_Hours', 'Exercise_per_Week', 'Study_Hours', 'Average_Grade']
+X = df[features]
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(X)
+#KMeans Clustering
+kmeans = KMeans(n_clusters=3, random_state=42)
+clusters = kmeans.fit_predict(X_scaled)
+df['Cluster'] = clusters
+```
+```
+#Bar chart of group feature means
+group_means = df.groupby('Cluster')[features].mean()
+group_means.plot(kind='bar', figsize=(10,6))
+plt.title('Average Features by Cluster')
+plt.ylabel('Average Value')
+plt.xlabel('Cluster')
+plt.xticks(rotation=0)
+plt.grid(True)
+plt.legend(loc='upper right')
+plt.tight_layout()
+plt.show()
+group_means = df.groupby('Cluster')[features].mean()
+print(group_means)
+```
+```
+#PCA for 2D visualization
+pca = PCA(n_components=2)
+X_pca = pca.fit_transform(X_scaled)
 
+plt.figure(figsize=(8,6))
+sns.scatterplot(x=X_pca[:,0], y=X_pca[:,1], hue=df['Cluster'], palette='viridis', s=80)
+plt.title('PCA 2D Cluster Visualization')
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.grid(True)
+plt.legend(title='Cluster')
+plt.show()
+```
+```
+#PCA 組成
+pca_components = pd.DataFrame(pca.components_, columns=features, index=['PCA1', 'PCA2'])
+print(pca_components)
+```
 ### 圖表解釋與分析
 ![圖片描述](HW3IMAGE/IMAGE1.png)
 KMEANS 長條圖分析:\
