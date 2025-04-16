@@ -96,7 +96,7 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 ```
 4. KMeans 分群分析-根據學生的行為與表現將其分為3群
-```
+```python
 kmeans = KMeans(n_clusters=3, random_state=42)
 clusters = kmeans.fit_predict(X_scaled)
 df['Cluster'] = clusters
