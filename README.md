@@ -108,7 +108,7 @@ plt.legend(title='Cluster')
 plt.show()
 ```
 ### 圖表解釋與分析
-![圖片描述](HW3IMAGE/IMAGE1.png)
+![圖片描述](HW3IMAGE/IMAGE3.png)
 KMEANS 長條圖分析:\
 ●Cluster 0\
 睡眠時間：偏少（7 小時）
@@ -151,7 +151,7 @@ KMEANS 長條圖分析:\
 這群學生睡得最多，但運動與讀書時間都偏少，成績介於中間。
 
 
-![圖片描述](HW3IMAGE/IMAGE2.png)\
+![圖片描述](HW3IMAGE/IMAGE4.png)\
 PCA降維圖表分析 : \
 ●Cluster 0（深紫色）
 
