@@ -15,6 +15,10 @@
 * [程式碼解釋](#程式碼解釋)
 * [圖表解釋與分析](#圖表解釋與分析)
 
+### HW4-病患症狀文字分析
+* [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/hw4.ipynb)
+* [數據]()
+* [圖表解釋與分析]()
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
 ## HW2-病患資料視覺化
