@@ -22,7 +22,9 @@
 * [圖表解釋與分析](#圖表分析與解釋)
 
 ## Ⅱ. 隨堂練習
-
+* WEEK1- 角色聊天機器人
+* WEEK2-
+* WEEK3- 
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
 ## HW2-病患資料視覺化
