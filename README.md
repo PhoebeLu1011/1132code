@@ -2,7 +2,7 @@
 * 授課教師：蔡芸琤老師
 * 姓名：盧姵帆
 # 目錄
-Ⅰ. 作業
+## Ⅰ. 作業
 ### HW1
 * [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
 ### HW2-病患資料視覺化
@@ -21,7 +21,7 @@
 * [數據](https://github.com/PhoebeLu1011/1132code/blob/main/patient_symptom_feedback.csv)
 * [圖表解釋與分析](#圖表分析與解釋)
 
-Ⅱ. 隨堂練習
+## Ⅱ. 隨堂練習
 
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
