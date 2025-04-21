@@ -22,10 +22,11 @@
 * [圖表解釋與分析](#圖表分析與解釋)
 
 ## Ⅱ. 隨堂練習
-* WEEK1- 角色聊天機器人
-* WEEK2- AI數字比大小
-* WEEK3-
-* WEEK8- 文字分類
+* WEEK2- [角色聊天機器人](https://github.com/PhoebeLu1011/1132code/blob/main/%E8%A7%92%E8%89%B2%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA.ipynb)
+* WEEK3- [聊天機器人PART2](https://github.com/PhoebeLu1011/1132code/blob/main/week3.ipynb)
+* WEEK4- [AI數字比大小](https://github.com/PhoebeLu1011/1132code/blob/main/week4_%E9%9A%A8%E5%A0%82%E4%BB%BB%E5%8B%99.ipynb)
+* WEEK5- [資料視覺化](https://github.com/PhoebeLu1011/1132code/blob/main/week5%E9%9A%A8%E5%A0%82.ipynb)
+* WEEK8- [文字分類](https://github.com/PhoebeLu1011/1132code/blob/main/WEEK8_%E6%96%87%E5%AD%97%E5%88%86%E9%A1%9E.ipynb)
 ## 作業
 HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_hw1.ipynb)
 ## HW2-病患資料視覺化
