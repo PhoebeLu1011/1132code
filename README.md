@@ -12,9 +12,9 @@
 
 ### HW3-學生生活習慣與成績分群分析
 * [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW3.ipynb)
-* [數據](#二、導入數據)
-* [程式碼解釋](#三、程式碼解釋)
-* [圖表解釋與分析](#四、圖表解釋與分析)
+* [數據](#導入數據)
+* [程式碼解釋](#程式碼解釋)
+* [圖表解釋與分析](#圖表解釋與分析)
 
 ### HW4-病患症狀文字分析
 * [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/hw4.ipynb)
@@ -32,9 +32,9 @@ HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_h
 ## HW2-病患資料視覺化
 此作業視覺化了包含 150 筆病患紀錄的資料集。\
 目標: 了解各種健康因素（年齡、BMI、疾病、用藥與追蹤等）之間的關聯性。
-### 一、程式碼
+### 程式碼
 [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW2.ipynb)
-### 二、數據
+### 數據
 [導入的數據](https://github.com/PhoebeLu1011/1132code/blob/main/%E4%BD%9C%E6%A5%AD%E4%BA%8C%20-%20%E5%B7%A5%E4%BD%9C%E8%A1%A81.csv)\
 數據包含以下欄位：
 - **PatientID**：病患的代碼。
@@ -44,7 +44,7 @@ HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_h
 - **Medication**：病患是否在服用藥物（0 代表沒有，1 代表有）。
 - **Rehabilitation**：病患是否進行復健治療（0 代表沒有，1 代表有）。
 - **FollowUp**：病患是否有追蹤門診（0 代表沒有，1 代表有）
-### 三、圖表與說明
+### 圖表與說明
 1. 疾病分布（Bar Chart）
 此長條圖顯示了各種疾病在所有病患中的分布情況。
 ![圖片描述](HW2IMAGE/01.png)
