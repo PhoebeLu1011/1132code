@@ -66,11 +66,11 @@ HW1程式碼:[HW1](https://github.com/PhoebeLu1011/1132code/blob/main/1132code_h
 ## HW3-學生生活習慣與成績分群分析
 本作業使用 Python 分析學生的生活習慣，包括睡眠、社群媒體使用、運動頻率、讀書時數與成績等統計指標，利用 KMeans 聚類與 PCA 降維分析分群成三種類型的學生，並使用視覺化工具展示結果。
 
-### 一、程式碼:
+### 程式碼:
 [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/HW3.ipynb)
-### 二、導入數據
+### 導入數據
 [學生生活習慣與成績資料](https://github.com/PhoebeLu1011/1132code/blob/main/%E5%AD%B8%E7%94%9F%E7%94%9F%E6%B4%BB%E7%BF%92%E6%85%A3%E5%88%86%E6%9E%90%E8%B3%87%E6%96%99_%E5%90%AB%E6%88%90%E7%B8%BE.csv)
-### 三、程式碼解釋
+### 程式碼解釋
 1. 串接Colab與google帳號，以`gspread` 函式庫操作Google Sheets
 ```python
 from google.colab import auth
@@ -141,7 +141,7 @@ plt.grid(True)
 plt.legend(title='Cluster')
 plt.show()
 ```
-### 四、圖表解釋與分析
+### 圖表解釋與分析
 ![圖片描述](HW3IMAGE/IMAGE3.png)
 KMEANS 長條圖分析:\
 ●Cluster 0\
