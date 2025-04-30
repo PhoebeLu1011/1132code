@@ -21,6 +21,10 @@
 * [數據](https://github.com/PhoebeLu1011/1132code/blob/main/patient_symptom_feedback.csv)
 * [圖表解釋與分析](#圖表分析與解釋)
 
+### HW5-旅遊地點推薦分析
+* [程式碼](https://github.com/PhoebeLu1011/1132code/blob/main/hw5_%E9%9A%A8%E5%A0%82.ipynb)
+* [圖表解釋與分析]()
+  
 ## Ⅱ. 隨堂練習
 * WEEK2- [角色聊天機器人](https://github.com/PhoebeLu1011/1132code/blob/main/%E8%A7%92%E8%89%B2%E8%81%8A%E5%A4%A9%E6%A9%9F%E5%99%A8%E4%BA%BA.ipynb)
 * WEEK3- [聊天機器人PART2](https://github.com/PhoebeLu1011/1132code/blob/main/week3.ipynb)
@@ -241,3 +245,6 @@ PCA降維圖表分析 : \
 
 1. 文字雲圖分析與解釋:\
 此文字雲圖呈現了 30 筆病患症狀描述中最常出現的關鍵字。字體越大代表該詞彙出現次數越多。從圖中可觀察到「心悸」、「腫脹」、「疼痛感」、「影響」等詞彙較為突出，顯示這些症狀在多數病患的陳述中頻繁出現，可能已對其日常生活造成影響。透過文字雲圖的視覺化呈現，不僅能直觀掌握主要病症類型，也反映出部分病患的情緒感受與生活困擾，為後續醫護介入與溝通提供了參考依據。
+
+## HW5
+
